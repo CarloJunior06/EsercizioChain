@@ -43,7 +43,7 @@ namespace ChainOfRes
             _password = Console.ReadLine();
             NextCheck.CheckPassword(_password);
         }
-        public bool InvalidPassword(string password) => valid = false;
+        
     }
 }
 
